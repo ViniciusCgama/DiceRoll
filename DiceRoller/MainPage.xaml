@@ -7,7 +7,7 @@
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0">
-            <Image Source="d6.jpg" WidthRequest="100" HeightRequest="150"/>
+            <Image Source="d6.jpg" x:Name="DiceImage" WidthRequest="100" HeightRequest="150"/>
             <Label Text="Rolador de Dados" HorizontalOptions="Center" FontSize="48" ></Label>
             <Label Text="0" x:Name="NumeroSorteado" HorizontalOptions="Center" FontSize="42"></Label>
             <Picker x:Name="SeletorDeLadosDoDado" HorizontalOptions="Center" >
